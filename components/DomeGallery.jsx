@@ -609,7 +609,15 @@ export default function DomeGallery({
                   onClick={onTileClick}
                   onPointerUp={onTilePointerUp}
                 >
-                  <img src={it.src} draggable={false} alt={it.alt} />
+                  <NextImage
+                    src={it.src}
+                    alt={it.alt || ""}
+                    fill
+                    sizes="(max-width: 768px) 100px, 150px"
+                    quality={75}
+                    draggable={false}
+                    style={{ objectFit: "cover" }}
+                  />
                 </div>
               </div>
             ))}
