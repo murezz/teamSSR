@@ -4,19 +4,19 @@ import Navbar from "@/components/Navbar";
 import DomeGallery from "../components/DomeGallery";
 
 const myImages = [
-  { src: "/photo/photo.jpg", alt: "Foto 1" },
-  { src: "/photo/photo2.jpg", alt: "Foto 2" },
-  { src: "/photo/photo4.jpg", alt: "Foto 4" },
-  { src: "/photo/photo6.jpg", alt: "Foto 6" },
-  { src: "/photo/photo7.jpg", alt: "Foto 7" },
-  { src: "/photo/photo8.jpg", alt: "Foto 8" },
-  { src: "/photo/photo9.jpg", alt: "Foto 9" },
-  { src: "/photo/photo11.jpg", alt: "Foto 11" },
-  { src: "/photo/photo12.jpg", alt: "Foto 12" },
-  { src: "/photo/photo13.jpg", alt: "Foto 13" },
-  { src: "/photo/photo14.jpg", alt: "Foto 14" },
-  { src: "/photo/photo15.jpg", alt: "Foto 15" },
-  { src: "/photo/photo16.jpg", alt: "Foto 16" },
+  { src: "/photo/photo.JPG", alt: "Foto 1" },
+  { src: "/photo/photo2.JPG", alt: "Foto 2" },
+  { src: "/photo/photo4.JPG", alt: "Foto 4" },
+  { src: "/photo/photo6.JPG", alt: "Foto 6" },
+  { src: "/photo/photo7.JPG", alt: "Foto 7" },
+  { src: "/photo/photo8.JPG", alt: "Foto 8" },
+  { src: "/photo/photo9.JPG", alt: "Foto 9" },
+  { src: "/photo/photo11.JPG", alt: "Foto 11" },
+  { src: "/photo/photo12.JPG", alt: "Foto 12" },
+  { src: "/photo/photo13.JPG", alt: "Foto 13" },
+  { src: "/photo/photo14.JPG", alt: "Foto 14" },
+  { src: "/photo/photo15.JPG", alt: "Foto 15" },
+  { src: "/photo/photo16.JPG", alt: "Foto 16" },
 ];
 
 export default function Home() {
